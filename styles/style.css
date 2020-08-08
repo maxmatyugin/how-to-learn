@@ -249,6 +249,7 @@ a:hover {
 .feynman__title {
   width: 648px;
   margin-top: 100px;
+  margin-bottom: 0;
   text-align: center;
   font-size: 120px;
   line-height: 1.15;
@@ -263,6 +264,7 @@ a:hover {
   display: flex;
   text-align: center;
   margin-top: 70px;
+  margin-bottom: 0;
   z-index: 1;
   font-weight: normal;
 }
@@ -297,6 +299,7 @@ a:hover {
 
 .kaufman__triangle {
   background-image: url(../images/kaufman-triangle.svg);
+  background-size: cover;
   position: absolute;
   right: -210px;
   top: 0;
@@ -321,13 +324,6 @@ a:hover {
   justify-content: space-between;
 }
 
-.footer__columns_content_copyright {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  flex-basis: 711px;
-}
-
 .footer__author {
   display: flex;
   margin-bottom: 16px;
@@ -337,7 +333,19 @@ a:hover {
   font-weight: normal;
 }
 
-.footer__columns_content_info {
+.footer__column_content_copyright {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-basis: 711px;
+}
+
+.footer__column_content_info {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__column_content_social {
   display: flex;
   flex-direction: column;
 }
@@ -355,7 +363,7 @@ a:hover {
   font-weight: normal;
 }
 
-.column-link {
+.footer__column-link {
   color: white;
   text-decoration: none;
 }
