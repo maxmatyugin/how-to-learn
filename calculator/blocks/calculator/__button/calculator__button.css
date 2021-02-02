@@ -1,8 +1,0 @@
-.calculator__button {
-  min-width: 50px;
-}
-
-.calculator__button:nth-of-type(17) {
-  grid-column-start: 1;
-  grid-column-end: 3;
-}
